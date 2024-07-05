@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Initialize'){
             steps{
-                echo "PATH = ${M2_HOME}/bin:${PATH}"
+                echo "PATH = ${apache-maven-3.9.8}/bin:${PATH}"
                 echo "M2_HOME = /opt/maven"
             }
         }
